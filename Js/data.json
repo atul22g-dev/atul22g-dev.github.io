@@ -1,0 +1,104 @@
+[
+  {
+    "title": "iMusic",
+    "src": "https://github.com/Atugatran/iMusic/",
+    "demo": "https://atugatran.github.io/iMusic/",
+    "img": "https://atugatran.github.io/iMusic/images/iMusic.png"
+  },
+  {
+    "title": "iMovies",
+    "src": "https://github.com/Atugatran/iMovies",
+    "demo": "https://atugatran.github.io/iMovies/",
+    "img": "https://atugatran.github.io/iMovies/img/Home.png"
+  },
+  {
+    "title": "YouTube-clone",
+    "demo": "https://atugatran.github.io/YouTube-clone/",
+    "src": "https://github.com/Atugatran/YouTube-clone",
+    "img": "https://atugatran.github.io/YouTube-clone/images/YouTube.png"
+  },
+  {
+    "title": "clone-of-netflix",
+    "src": "https://github.com/Atugatran/clone-of-netflix",
+    "demo": "https://atugatran.github.io/clone-of-netflix//",
+    "img": "https://atugatran.github.io/clone-of-netflix/images/Netflix.png"
+  },
+  {
+    "title": "Clock",
+    "demo": "https://atugatran.github.io/Clock/",
+    "src": "https://github.com/Atugatran/Clock",
+    "img": "https://atugatran.github.io/Clock/img/Clock.png"
+  },
+  {
+    "title": "Calculator",
+    "src": "https://github.com/Atugatran/Calculator",
+    "demo": "https://atugatran.github.io/Calculator/",
+    "img": "https://atugatran.github.io/Calculator/calculater.png"
+  },
+  {
+    "title": "ClipPath-Text",
+    "src": "https://github.com/Atugatran/ClipPath-Text",
+    "demo": "https://atugatran.github.io/ClipPath-Text/",
+    "img": "https://atugatran.github.io/ClipPath-Text/ClipPath%20Text.png"
+  },
+  {
+    "title": "Window-11",
+    "src": "https://github.com/Atugatran/Window-11",
+    "demo": "https://atugatran.github.io/Window-11/",
+    "img": "https://atugatran.github.io/Window-11/Try%20Windows%2011.png"
+  },
+  {
+    "title": "Car-Animation",
+    "src": "https://github.com/Atugatran/Car-Animation",
+    "demo": "https://atugatran.github.io/Car-Animation/",
+    "img": "https://atugatran.github.io/Car-Animation/others/Car%20Animation.png"
+  },
+  {
+    "title": "SnakeMania",
+    "src": "https://github.com/Atugatran/SnakeMania",
+    "demo": "https://atugatran.github.io/SnakeMania/",
+    "img": "https://atugatran.github.io/SnakeMania/SnakeMania-img.png"
+  },
+  {
+    "title": "Tic-Tac-Toe",
+    "src": "https://github.com/Atugatran/Tic-Tac-Toe",
+    "demo": "https://atugatran.github.io/Tic-Tac-Toe/",
+    "img": "https://atugatran.github.io/Tic-Tac-Toe/Others/Tic-Tac-Toe.png"
+  },
+  {
+    "title": "My-Todos",
+    "src": "https://github.com/Atugatran/My-Todos",
+    "demo": "https://atugatran.github.io/My-Todos/",
+    "img": "https://atugatran.github.io/My-Todos/My%20Notes.png"
+  },
+  {
+    "title": "iBlog",
+    "src": "https://github.com/Atugatran/iBlog",
+    "demo": "https://atugatran.github.io/iBlog/",
+    "img": "https://atugatran.github.io/iBlog/img/iBlog.png"
+  },
+  {
+    "title": "iCoder",
+    "src": "https://github.com/Atugatran/iCoder",
+    "demo": "https://atugatran.github.io/iCoder/",
+    "img": "https://atugatran.github.io/iCoder/iCoder.png"
+  },
+  {
+    "title": "Portfolio",
+    "src": "https://github.com/Atugatran/Portfolio",
+    "demo": "https://atugatran.github.io/Portfolio/",
+    "img": "https://atugatran.github.io/Portfolio/images/Portfolio.png"
+  },
+  {
+    "title": "Portfoli2",
+    "src": "https://github.com/Atugatran/Portfolio2",
+    "demo": "https://atugatran.github.io/Portfolio2/",
+    "img": "https://atugatran.github.io/Portfolio2/assets/Portgolio2.png"
+  },
+  {
+    "title": "Resume",
+    "src": "https://github.com/Atugatran/Resume",
+    "demo": "https://atugatran.github.io/Resume/",
+    "img": "https://atugatran.github.io/Resume/Resume.jpeg"
+  }
+]
