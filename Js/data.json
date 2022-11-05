@@ -93,7 +93,13 @@
     "title": "Portfoli2",
     "src": "https://github.com/Atugatran/Portfolio2",
     "demo": "https://atugatran.github.io/Portfolio2/",
-    "img": "../Image/Portgolio2.png"
+    "img": "../Image/Portfolio2.png"
+  },
+  {
+    "title": "Portfoli3",
+    "src": "https://github.com/Atugatran/Portfolio3",
+    "demo": "https://atugatran.github.io/Portfolio3/",
+    "img": "../Image/Portfolio3.png"
   },
   {
     "title": "Resume",

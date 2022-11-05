@@ -145,6 +145,7 @@ a {
   padding: 0px;      
   width: 100%;
   list-style-type: none;
+  cursor: pointer;
 }
 .collection .collection-item {
   margin-bottom: 5px;
@@ -153,9 +154,19 @@ a {
   padding: 10px;
   border: 1px solid #e37682;
 }
+.collection .collection-item:hover{
+  border: 1px solid #e37682;
+  background-color : #e37682;
+}
+
 .collection .collection-item a {
   color : #e37682;
 }
+
+.collection .collection-item:hover a{
+  color: white;
+}
+
 
 .github-corner {
   position: fixed;
