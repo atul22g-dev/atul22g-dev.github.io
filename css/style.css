@@ -1,14 +1,3 @@
-body  {
-  margin: 0 auto;
-  color: #696969;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: ghostwhite;
-}
-.container {
-  margin: auto;
-  max-width: 980px;
-  padding: 10px;
-}
 * {
   box-sizing: border-box;
 }
@@ -18,6 +7,23 @@ body  {
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0 auto;
+  color: #696969;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: ghostwhite;
+}
+
+/* ******************************************* container **************************************************** */
+
+.container {
+  margin: auto;
+  max-width: 980px;
+  padding: 10px;
+}
+
+/* ******************************************* Cards **************************************************** */
 
 .cards {
   display: flex;
@@ -31,18 +37,6 @@ body  {
   display: flex;
   padding: 1rem;
   width: 33.3333%;
-}
-
-@media all and (max-width : 1200px) {
-  .cards__item {
-    width: 50%;
-  }
-}
-
-@media all and (max-width : 768px) {
-  .cards__item {
-    width: 100%;
-  }
 }
 
 .card__body {
@@ -68,7 +62,7 @@ body  {
   flex: 1 1 auto;
   flex-direction: column;
   padding: 1rem;
-  justify-content : flex-end;
+  justify-content: flex-end;
 }
 
 .card__image {
@@ -123,7 +117,7 @@ body  {
 
 a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 .card__links a {
   display: block;
@@ -140,34 +134,36 @@ a {
   background-color: #e37682;
 }
 
-.collection {
+/* ******************************************* Libaries **************************************************** */
+
+.Libaries {
   margin: 0;
-  padding: 0px;      
+  padding: 0px;
   width: 100%;
   list-style-type: none;
   cursor: pointer;
 }
-.collection .collection-item {
+.Libaries .Libaries-item {
   margin-bottom: 5px;
   border-radius: 5px;
   width: 100%;
   padding: 10px;
   border: 1px solid #e37682;
 }
-.collection .collection-item:hover{
+.Libaries .Libaries-item:hover {
   border: 1px solid #e37682;
-  background-color : #e37682;
+  background-color: #e37682;
 }
 
-.collection .collection-item a {
-  color : #e37682;
+.Libaries .Libaries-item a {
+  color: #e37682;
 }
 
-.collection .collection-item:hover a{
+.Libaries .Libaries-item:hover a {
   color: white;
 }
 
-
+/* ********************************************* Github ****************************************************** */
 .github-corner {
   position: fixed;
   top: 0;
@@ -175,34 +171,49 @@ a {
   z-index: 5;
 }
 
+
 .github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out
+  animation: octocat-wave 560ms ease-in-out;
 }
 
-@keyframes octocat-wave {
 
+/* ********************************************* keyframes ****************************************************** */
+@keyframes octocat-wave {
   0%,
   100% {
-    transform: rotate(0)
+    transform: rotate(0);
   }
 
   20%,
   60% {
-    transform: rotate(-25deg)
+    transform: rotate(-25deg);
   }
 
   40%,
   80% {
-    transform: rotate(10deg)
+    transform: rotate(10deg);
   }
 }
 
-@media (max-width:500px) {
+
+/* ********************************************* Media Quary ****************************************************** */
+@media (max-width: 500px) {
   .github-corner:hover .octo-arm {
-    animation: none
+    animation: none;
   }
 
   .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+@media all and (max-width: 1200px) {
+  .cards__item {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cards__item {
+    width: 100%;
   }
 }
