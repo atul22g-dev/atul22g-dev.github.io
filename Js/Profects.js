@@ -1,19 +1,19 @@
-let data = null;
+let Projects = null;
 
 fetch('https://bogotas.github.io/_Apis/Projects/index.json')
   .then(res => res.json())
   .then(result => {
-    data = result;
+    Projects = result;
     loadCards();
   })
 
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadCards() {
-  let fwc_cards = document.getElementById('data-container');
-  let temp = data.map((i) => {
+  let card_container = document.getElementById('card-container');
+  let card = Projects.map((i) => {
     return `
-    <li class="cards__item">
+    <li class="cards__item" key=${i.id}>
     <div class="card__body">
       <div class="card__image">
         <img src="${i.img}" alt="">
@@ -34,5 +34,5 @@ function loadCards() {
   </li>
   `
   });
-  fwc_cards.innerHTML = temp.join('');
+  card_container.innerHTML = card.join('');
 }
