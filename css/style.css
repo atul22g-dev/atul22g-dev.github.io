@@ -12,18 +12,37 @@ body {
   margin: 0 auto;
   color: #696969;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: ghostwhite;
+  text-align: center;
 }
 
-/* ******************************************* container **************************************************** */
+h1 {
+  font-size: 2.5rem;
+}
 
-.container {
-  margin: auto;
-  max-width: 980px;
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* ******************************************* comman **************************************************** */
+
+.comman {
+  width: 100%;
   padding: 10px;
 }
 
 /* ******************************************* Cards **************************************************** */
+
+.Repocitories {
+  background-color: #f2f5fd;
+}
 
 .cards {
   display: flex;
@@ -36,7 +55,7 @@ body {
 .cards__item {
   display: flex;
   padding: 1rem;
-  width: 33.3333%;
+  width: 32%;
 }
 
 .card__body {
@@ -134,33 +153,45 @@ a {
   background-color: #e37682;
 }
 
-/* ******************************************* Libaries **************************************************** */
+/* ******************************************* Libarie **************************************************** */
 
 .Libaries {
+  background-color: #EFDAD4;
+}
+
+.Libarie {
   margin: 0;
   padding: 0px;
   width: 100%;
+  /* background-color: red; */
   list-style-type: none;
   cursor: pointer;
 }
-.Libaries .Libaries-item {
+.Libarie .Libarie-item {
   margin-bottom: 5px;
   border-radius: 5px;
   width: 100%;
   padding: 10px;
+  color: #e37682;
   border: 1px solid #e37682;
 }
-.Libaries .Libaries-item:hover {
+.Libarie .Libarie-item:hover {
   border: 1px solid #e37682;
   background-color: #e37682;
 }
 
-.Libaries .Libaries-item a {
+.Libarie .Libarie-item a {
   color: #e37682;
 }
 
-.Libaries .Libaries-item:hover a {
+.Libarie .Libarie-item:hover a {
   color: white;
+}
+
+/* ********************************************* APIs ****************************************************** */
+
+.API {
+  background-color: #f2f5fd;
 }
 
 /* ********************************************* Github ****************************************************** */
@@ -171,11 +202,9 @@ a {
   z-index: 5;
 }
 
-
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
-
 
 /* ********************************************* keyframes ****************************************************** */
 @keyframes octocat-wave {
@@ -194,7 +223,6 @@ a {
     transform: rotate(10deg);
   }
 }
-
 
 /* ********************************************* Media Quary ****************************************************** */
 @media (max-width: 500px) {

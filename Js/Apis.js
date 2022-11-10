@@ -13,7 +13,7 @@ function loadApis() {
   let Apis_container = document.getElementById("Apis-container");
   let Apis_item = Api.map((i) => {
     return `
-    <li class="Libaries-item" key=${i.id}>
+    <li class="Libarie-item" key=${i.id}>
           <a target="_blank" href=${i.src}>${i.name}</a>
     </li>
   `;
