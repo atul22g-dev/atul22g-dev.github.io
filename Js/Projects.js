@@ -1,6 +1,6 @@
 let Projects = null;
 
-fetch('https://bogotas.github.io/_Apis/Projects/index.json')
+fetch('https://atugatran-projects.github.io/_Apis/Projects/index.json')
   .then(res => res.json())
   .then(result => {
     Projects = result;

@@ -1,6 +1,6 @@
 let Libarry = null;
 
-fetch("https://bogotas.github.io/_Apis/Js_Libaries/index.json")
+fetch("https://atugatran-projects.github.io/_Apis/Js_Libaries/index.json")
   .then((res) => res.json())
   .then((result) => {
     Libarry = result;

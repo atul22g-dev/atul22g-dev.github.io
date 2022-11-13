@@ -1,6 +1,6 @@
 let Api = null;
 
-fetch("https://bogotas.github.io/_Apis/index.json")
+fetch("https://atugatran-projects.github.io/_Apis/index.json")
   .then((res) => res.json())
   .then((result) => {
     Api = result;
