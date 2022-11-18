@@ -10,7 +10,7 @@ fetch('https://atugatran-projects.github.io/_Apis/Projects/index.json')
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadCards() {
-  let card_container = document.getElementById('card-container');
+  let Project_container = document.getElementById('Project-container');
   let card = Projects.map((i) => {
     return `
     <li class="cards__item" key=${i.id}>
@@ -34,5 +34,5 @@ function loadCards() {
   </li>
   `
   });
-  card_container.innerHTML = card.join('');
+  Project_container.innerHTML = card.join('');
 }
