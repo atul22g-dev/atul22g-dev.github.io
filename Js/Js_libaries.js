@@ -19,7 +19,7 @@ function loadLibaries() {
         <img src="${i.img}" alt="">
       </div>
       <div class="card__content">
-        <div class="card__title">${i.name}</div>
+        <div class="card__title">${i.title}</div>
         <div class="card__links">
           <a class="card__btn" href="${i.demo}" target="_blank">
             <span>Live Demo</span>
