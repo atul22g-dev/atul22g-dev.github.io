@@ -153,7 +153,7 @@ a {
 
 .card__links a:hover {
   color: white;
-  background-color: #e37682;
+  background-color: #EFDAD4;
 }
 
 /* ******************************************* Backend *********************************************** */
@@ -171,45 +171,43 @@ a {
   background-color: #ebebeb;
 }
 
-/* ******************************************* Libarie **************************************************** */
+/* ******************************************* Libaries **************************************************** */
 
 .Libaries {
-  background-color: #EFDAD4;
+  background-color: #dee7de;
 }
 
-.Libarie {
-  margin: 0;
-  padding: 0px;
-  width: 100%;
-  /* background-color: red; */
-  list-style-type: none;
-  cursor: pointer;
-}
-.Libarie .Libarie-item {
+.Libaries .Libaries-item {
   margin-bottom: 5px;
   border-radius: 5px;
   width: 100%;
   padding: 10px;
-  color: #e37682;
-  border: 1px solid #e37682;
+  color: #EFDAD4;
+  border: 1px solid #EFDAD4;
 }
-.Libarie .Libarie-item:hover {
-  border: 1px solid #e37682;
-  background-color: #e37682;
-}
-
-.Libarie .Libarie-item a {
-  color: #e37682;
+.Libaries .Libaries-item:hover {
+  border: 1px solid #EFDAD4;
+  background-color: #EFDAD4;
 }
 
-.Libarie .Libarie-item:hover a {
+.Libaries .Libaries-item a {
+  color: #EFDAD4;
+}
+
+.Libaries .Libaries-item:hover a {
   color: white;
 }
 
-/* ********************************************* APIs ****************************************************** */
+/* ********************************************* Repositories *************************************************** */
 
-.API {
-  background-color: #f3f6ff;
+.Repositories {
+  background-color: #cfd0d4;
+}
+
+/* ********************************************* Software *************************************************** */
+
+.Software {
+  background-color: #dce3e5;
 }
 
 /* ********************************************* Github ****************************************************** */
