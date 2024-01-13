@@ -20,7 +20,10 @@ function loadbackend() {
       </div>
       <div class="card__content">
         <div class="card__title">${i.title}</div>
-        <div class="card__links backend">
+        <div class="card__links">
+          <a class="card__btn" href="${i.demo}" target="_blank">
+            <span>Live Demo</span>
+          </a>
           <a class="card__btn" href="${i.src}"
             target="_blank">
             <span>Source Code</span>
