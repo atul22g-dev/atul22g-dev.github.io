@@ -1,6 +1,6 @@
 let Softwares = null;
 
-fetch("https://atugatran-projects.github.io/_Apis/Softwares/Software.json")
+fetch("https://atugatranapi.pages.dev/Softwares/Software.json")
   .then((res) => res.json())
   .then((result) => {
     Softwares = result;

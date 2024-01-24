@@ -1,6 +1,6 @@
 let backend = null;
 
-fetch("https://atugatran-projects.github.io/_Apis/backend/index.json")
+fetch("https://atugatranapi.pages.dev/backend/index.json")
   .then((res) => res.json())
   .then((result) => {
     backend = result;
