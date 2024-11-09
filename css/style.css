@@ -219,6 +219,30 @@ a {
   background-color: #dce3e5;
 }
 
+/* ********************************************* Apis *************************************************** */
+
+.collection {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 100%;
+  max-width: 80vw;
+  list-style-type: none;
+}
+
+.collection .collection-item {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e37682;
+}
+
+.collection .collection-item a{
+  color: #e37682; 
+}
+
+
 /* ********************************************* Github ****************************************************** */
 .github-corner {
   position: fixed;
