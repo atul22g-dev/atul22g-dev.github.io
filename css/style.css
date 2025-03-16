@@ -161,7 +161,7 @@ a {
 
 /* ******************************************* Backend *********************************************** */
 
-.Backend{
+.backend{
   background-color: #f2f5fd;
 }
 .backend{
@@ -170,7 +170,7 @@ a {
 
 /* ******************************************* application *********************************************** */
 
-.application{
+.App{
   background-color: #e0e0e0;
 }
 
@@ -182,11 +182,11 @@ a {
 
 /* ******************************************* Libaries **************************************************** */
 
-.Libaries {
+.Js_Libaries {
   background-color: #dee7de;
 }
 
-.Libaries .Libaries-item {
+.Js_Libaries .Libaries-item {
   margin-bottom: 5px;
   border-radius: 5px;
   width: 100%;
@@ -194,16 +194,16 @@ a {
   color: #EFDAD4;
   border: 1px solid #EFDAD4;
 }
-.Libaries .Libaries-item:hover {
+.Js_Libaries .Libaries-item:hover {
   border: 1px solid #EFDAD4;
   background-color: #EFDAD4;
 }
 
-.Libaries .Libaries-item a {
+.Js_Libaries .Libaries-item a {
   color: #EFDAD4;
 }
 
-.Libaries .Libaries-item:hover a {
+.Js_Libaries .Libaries-item:hover a {
   color: white;
 }
 
@@ -220,6 +220,12 @@ a {
 }
 
 /* ********************************************* Apis *************************************************** */
+
+.comman2 {
+  width: 100%;
+  padding: 10px;
+}
+
 
 .collection {
   margin: 0 auto;
@@ -242,8 +248,18 @@ a {
   color: #e37682; 
 }
 
+.Apis{
+  background-color: #f2f5fd;
+}
+
+/* ********************************************* Packages ****************************************************** */
+
+.Packages{
+  background-color: #e1eee1;
+}
 
 /* ********************************************* Github ****************************************************** */
+
 .github-corner {
   position: fixed;
   top: 0;
