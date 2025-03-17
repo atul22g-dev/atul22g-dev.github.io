@@ -10,7 +10,7 @@ fetch('https://atugatranapi.pages.dev/Js_Libaries/index.json')
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadLib() {
-  let libaries_container = document.getElementById('Libaries-container');
+  let libaries_container = document.getElementById('Js_Libaries-container');
   let card = libaries.map((i) => {
     return `
     <li class="cards__item" key=${i.id}>

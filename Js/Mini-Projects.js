@@ -10,7 +10,7 @@ fetch("https://atugatranapi.pages.dev/Mini-Projects/index.json")
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadMini_Project() {
-  let Mini_Project_container = document.getElementById("Mini-Project-container");
+  let Mini_Project_container = document.getElementById("Mini-Projects-container");
   let Mini_Project_item = Mini_Project.map((i) => {
     return `
     <li class="cards__item" key=${i.id}>

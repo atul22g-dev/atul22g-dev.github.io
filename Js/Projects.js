@@ -10,7 +10,7 @@ fetch('https://atugatranapi.pages.dev/Projects/index.json')
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadCards() {
-  let Project_container = document.getElementById('Project-container');
+  let Project_container = document.getElementById('Projects-container');
   let card = Projects.map((i) => {
     return `
     <li class="cards__item" key=${i.id}>

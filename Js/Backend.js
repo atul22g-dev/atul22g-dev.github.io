@@ -10,7 +10,7 @@ fetch("https://atugatranapi.pages.dev/backend/index.json")
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadbackend() {
-  let Backend_container = document.getElementById("Backend-container");
+  let Backend_container = document.getElementById("backend-container");
   let backend_item = backend.map((i) => {
     return `
     <li class="cards__item" key=${i.id}>

@@ -1,34 +1,34 @@
 // fetch Data for Projects
 
-document.querySelectorAll('.comman').forEach(element => {
-    let className = element.classList[1];
+// document.querySelectorAll('.comman').forEach(element => {
+//     let className = element.classList[1];
 
-    fetch(`https://atugatranapi.pages.dev/${className}/index.json`)
-        .then(response => response.json())
-        .then(content => loadData(className, content));
-});
+//     fetch(`https://atugatranapi.pages.dev/${className}/index.json`)
+//         .then(response => response.json())
+//         .then(content => loadData(className, content));
+// });
 
-const loadData = (className, content) => {
-    let container = document.getElementById(`${className}-container`);
-    let containerContent = content.map(({ id, img, title, demo }) => `
-        <li class="cards__item" key=${id}>
-            <div class="card__body">
-                <div class="card__image">
-                    <img src="${img}" alt="">
-                </div>
-                <div class="card__content">
-                    <div class="card__title">${title}</div>
-                    <div class="card__links backend">
-                        <a class="card__btn" href="${demo}" target="_blank">
-                            <span>Live Demo</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </li>`).join('');
+// const loadData = (className, content) => {
+//     let container = document.getElementById(`${className}-container`);
+//     let containerContent = content.map(({ id, img, title, demo }) => `
+//         <li class="cards__item" key=${id}>
+//             <div class="card__body">
+//                 <div class="card__image">
+//                     <img src="${img}" alt="">
+//                 </div>
+//                 <div class="card__content">
+//                     <div class="card__title">${title}</div>
+//                     <div class="card__links backend">
+//                         <a class="card__btn" href="${demo}" target="_blank">
+//                             <span>Live Demo</span>
+//                         </a>
+//                     </div>
+//                 </div>
+//             </div>
+//         </li>`).join('');
 
-    container.innerHTML = containerContent;
-};
+//     container.innerHTML = containerContent;
+// };
 
 
 // fetch Data for api

@@ -10,7 +10,7 @@ fetch('https://atugatranapi.pages.dev/App/index.json')
 // NOTE
 // i'm gonna parse the url so my websites json data is not effected;
 function loadApp() {
-    let application_container = document.getElementById('application-container');
+    let application_container = document.getElementById('App-container');
     let app = application.map((i) => {
         return `
     <li class="cards__item" key=${i.id}>
