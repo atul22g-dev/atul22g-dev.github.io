@@ -1,6 +1,6 @@
 let Repositories = null;
 
-fetch('https://atugatranapi.pages.dev/Repositories/index.json')
+fetch('https://atualapis.pages.dev/ProjectsApis/Repositories.json')
   .then(res => res.json())
   .then(result => {
     Repositories = result;

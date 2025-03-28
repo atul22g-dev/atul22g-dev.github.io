@@ -1,6 +1,6 @@
 let libaries = null;
 
-fetch('https://atugatranapi.pages.dev/Js_Libaries/index.json')
+fetch('https://atualapis.pages.dev/ProjectsApis/Js_Libaries.json')
   .then(res => res.json())
   .then(result => {
     libaries = result;

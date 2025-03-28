@@ -1,6 +1,6 @@
 let application = null;
 
-fetch('https://atugatranapi.pages.dev/App/index.json')
+fetch('https://atualapis.pages.dev/ProjectsApis/App.json')
     .then(res => res.json())
     .then(result => {
         application = result;
